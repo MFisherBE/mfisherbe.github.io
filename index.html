@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>DevMF Portfolio Website</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="C:\Users\micha\Documents\portfolio-website\logo.png" alt="">
+			</div>
+				<div class="menu" id="menu">
+						<div>
+								<span class="line-1"></span>
+								<span class="line-2"></span>
+								<span class="line-3"></span>
+						</div>
+				</div>	
+		</header>
+
+		<div class="menu-box" id="menuBox">
+			<ul>
+				<li><a href="#home" id="elthome">Home</a></li>
+				<li><a href="#services" id="eltservices">Services</a></li>
+				<li><a href="#about" id="eltabout">About Me</a></li>
+				<li><a href="#work" id="eltwork">My Work</a></li>
+				<li><a href="#footerid" id="eltfooter">Contact</a></li>
+			</ul>
+		</div>
+
+		<!-- Introduction -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I am <strong>Mike Fisher</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+			<img src="C:\Users\micha\Documents\portfolio-website\mflogo.jpg" alt="a b&w picture of Mike" class="intro__img">
+		</section>
+
+		<!-- My Services -->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">What I do</h2>
+			<div class="services">
+				<div class="service">
+					<h3>Music</h3>
+	        <p>Guitar player who has been writing music for 20+ years and has recorded music as a solo musician as well as recorded and toured in band settings.</p>
+      	</div> <!-- / service -->
+                
+	      <div class="service">
+	        <h3>Software Engineering</h3>
+	        <p>Graduate of Electrical Engineering with software engineering experience in Operating Systems, Audio Device Development, and embedded systems.</p>
+	      </div> <!-- / service -->
+      
+	      <div class="service">
+	        <h3>Illustration</h3>
+	        <p>Artist with a passion for illustration of anything from scenes to characters to abstract concepts.</p>
+	      </div> <!-- / service -->
+			</div> <!-- close services -->
+
+			<a href="#work" class="btn">My Work</a>
+		</section>
+
+
+		<!-- About Me -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">Musician / Software Engineer from Minneapolis</p>
+
+			<div class="about-me__body">
+       <p>My name is Mike, and I'm a software engineer by day and a guitarist and artist by night. Ever since the age of 5, I've sought to cultivate my creative expression through art and drawing, then music by the age of 13, and electrical + software engineering as my most current creative outlet.</p>
+       <p>My passion for guitar and effects drove me to study electrical engineering in an effort to further my understanding of the electronic effects. Through my studies in electrical engineering, I discovered my love for coding and software development which brought me to becoming a software developer today.</p>
+   		</div>
+
+			<img src="C:\Users\micha\Documents\portfolio-website\mfpic2.jpg" alt="Mike smiling" class="about-me__img">
+		</section>
+
+		<!-- My Work -->
+		<section class="my-work" id="work">
+			<h2 class="section__title">My work</h2>
+			<p class="section__subtitle">Music, Software Engineering, and Illustration</p>
+
+			<div class="portfolio">
+				<!-- Portfolio Item 01 -->
+				<a href="https://soundcloud.com/mikefisher-4" class="portfolio__item">
+					<img src="C:\Users\micha\Documents\portfolio-website\musicimg2.jpg" alt="" class="portfolio__img">          
+				</a>
+
+				<!-- Portfolio Item 03 -->
+				<a href="https://github.com/MFisherBE" class="portfolio__item">
+					<img src="C:\Users\micha\Documents\portfolio-website\code2.jpg" alt="" class="portfolio__img">           
+				</a>
+
+				<!-- Portfolio Item 04 -->
+				<a href="#" class="portfolio__item">
+					<img src="C:\Users\micha\Documents\portfolio-website\art.jpeg" alt="" class="portfolio__img">          
+				</a>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer" id="footerid">
+			<a href="mailto:michaelffisher8@gmail.com" class="footer__link">michaelffisher8@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/michael-fisher-7470245a/">
+					<i class="fab fa-linkedin"></i>
+				</a></li>
+				<li class="social-list__item"><a class="social-list__link" href="https://twitter.com/MFisherBE">
+					<i class="fab fa-twitter"></i>
+				</a></li>
+				<li class="social-list__item"><a class="social-list__link" href="https://github.com/MFisherBE">
+					<i class="fab fa-github"></i>
+				</a></li>
+				<li class="social-list__item"><a class="social-list__link" href="https://www.polywork.com/mike_fisher">PolyWork</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
