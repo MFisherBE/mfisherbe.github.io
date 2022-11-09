@@ -24,7 +24,13 @@
 								<span class="line-2"></span>
 								<span class="line-3"></span>
 						</div>
-				</div>	
+				</div>
+			<script>
+						var menu=document.getElementById("menu")
+						menu.onclick = function(){
+								menu.classList.toggle("openmenu");
+						}
+			</script>
 		</header>
 
 		<div class="menu-box" id="menuBox">
@@ -36,7 +42,46 @@
 				<li><a href="#footerid" id="eltfooter">Contact</a></li>
 			</ul>
 		</div>
+		
+		<script>
+			let menuBox = document.getElementById("menuBox");
+			let menuIcon = document.getElementById("menu");
+			let homeclick = document.getElementById("elthome");
+			let servclick = document.getElementById("eltservices");
+			let aboutclick = document.getElementById("eltabout");
+			let workclick = document.getElementById("eltwork");
+			let footerclick = document.getElementById("eltfooter");
 
+			menuIcon.onclick = function(){
+				menuBox.classList.toggle("open-menu");
+				menuIcon.classList.toggle("openmenu");
+			}
+
+			homeclick.onclick = function(){
+				menuBox.classList.toggle("open-menu");
+				menuIcon.classList.toggle("openmenu");
+			}
+
+			servclick.onclick = function(){
+				menuBox.classList.toggle("open-menu");
+				menuIcon.classList.toggle("openmenu");
+			}
+
+			aboutclick.onclick = function(){
+				menuBox.classList.toggle("open-menu");
+				menuIcon.classList.toggle("openmenu");
+			}
+
+			workclick.onclick = function(){
+				menuBox.classList.toggle("open-menu");
+				menuIcon.classList.toggle("openmenu");
+			}
+
+			footerclick.onclick = function(){
+				menuBox.classList.toggle("open-menu");
+				menuIcon.classList.toggle("openmenu");
+			}
+		</script>
 		<!-- Introduction -->
 		<section class="intro" id="home">
 			<h1 class="section__title section__title--intro">
